@@ -40,4 +40,8 @@ public class NewThread implements Runnable {
 		suspendFlag = false;
 		notify();
 	}
+
+	public void myinterupt() {
+		t.interrupt();
+	}
 }
