@@ -20,7 +20,7 @@ public class ThreadControl {
 			Thread.sleep(1000);
 			ob2.myresume();
 			System.out.println("Resuming thread Two");
-			
+		
 			ob1.myinterupt();
 			
 		} catch (InterruptedException e) {
