@@ -15,7 +15,7 @@ public class ThreadTest implements Runnable {
 
 		for (int i = 0; i < 5; i++) {
 			// yields control to another thread every 5 iterations
-			System.out.println(Thread.currentThread().getName() + " : " +i);
+			System.out.println(Thread.currentThread().getName() + " : " + i);
 			if ((i % 5) == 0) {
 				System.out.println(Thread.currentThread().getName()
 						+ " yielding control...");
@@ -34,11 +34,9 @@ public class ThreadTest implements Runnable {
 
 	public static void main(String[] args) {
 		System.out.println("Start");
-	    new ThreadTest("Thread 1");
-	    new ThreadTest("Thread 2");
-	    new ThreadTest("Thread 3");
-	    new ThreadTest("Thread 4");
-
+		new ThreadTest("Thread 1");
+		new ThreadTest("Thread 2");
+		new ThreadTest("Thread 3");
 	}
 
 }
