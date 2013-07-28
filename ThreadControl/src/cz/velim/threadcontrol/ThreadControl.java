@@ -9,14 +9,18 @@ public class ThreadControl {
 			Thread.sleep(1000);
 			ob1.mysuspend();
 			System.out.println("Suspending thread One");
+			
 			Thread.sleep(1000);
 			ob1.myresume();
 			System.out.println("Resuming thread One");
+			
 			ob2.mysuspend();
 			System.out.println("Suspending thread Two");
+			
 			Thread.sleep(1000);
 			ob2.myresume();
 			System.out.println("Resuming thread Two");
+						
 		} catch (InterruptedException e) {
 			System.out.println("Main thread Interrupted");
 		}
