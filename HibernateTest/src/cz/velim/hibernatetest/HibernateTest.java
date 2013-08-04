@@ -28,6 +28,17 @@ public class HibernateTest {
 			System.out.println(tst.getName());
 		}
 		transaction.commit();
+		
+		System.out.println(args.length);
+		if(args.length == 0) return;
+		System.out.println("add new names");
+		Names name = null;
+		for (String arg: args){
+			transaction = session.beginTransaction();
+			name = new Names(arg);
+			session.save(name);
+			transaction.commit();
+		}
 
 	}
 

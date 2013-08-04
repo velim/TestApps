@@ -53,3 +53,451 @@
 23:57:51,914 TRACE StringType:195 - returning 'tonda' as column: name0_
 23:57:51,914 TRACE IntegerType:195 - returning '3' as column: id0_
 23:57:51,914 TRACE StringType:195 - returning 'martin' as column: name0_
+00:14:43,217  INFO Environment:570 - Hibernate 3.5.6-Final
+00:14:43,221  INFO Environment:603 - hibernate.properties not found
+00:14:43,225  INFO Environment:781 - Bytecode provider name : javassist
+00:14:43,229  INFO Environment:662 - using JDK 1.4 java.sql.Timestamp handling
+00:14:43,339  INFO Configuration:1518 - configuring from resource: /hibernate.cfg.xml
+00:14:43,339  INFO Configuration:1495 - Configuration resource: /hibernate.cfg.xml
+00:14:43,426  INFO Configuration:655 - Reading mappings from resource : cz/velim/hibernatetest/entities/Names.hbm.xml
+00:14:43,487  INFO HbmBinder:348 - Mapping class: cz.velim.hibernatetest.entities.Names -> names
+00:14:43,498  INFO Configuration:1633 - Configured SessionFactory: null
+00:14:43,552  INFO DriverManagerConnectionProvider:64 - Using Hibernate built-in connection pool (not for production use!)
+00:14:43,552  INFO DriverManagerConnectionProvider:65 - Hibernate connection pool size: 20
+00:14:43,553  INFO DriverManagerConnectionProvider:68 - autocommit mode: false
+00:14:43,559  INFO DriverManagerConnectionProvider:103 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/s24ib
+00:14:43,560  INFO DriverManagerConnectionProvider:109 - connection properties: {user=s24ib, password=****}
+00:14:43,887  INFO SettingsFactory:117 - RDBMS: MySQL, version: 5.5.22
+00:14:43,888  INFO SettingsFactory:118 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.14 ( Revision: ${bzr.revision-id} )
+00:14:43,919  INFO Dialect:206 - Using dialect: org.hibernate.dialect.MySQL5Dialect
+00:14:43,928  INFO TransactionFactoryFactory:59 - Using default transaction strategy (direct JDBC transactions)
+00:14:43,929  INFO TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+00:14:43,929  INFO SettingsFactory:169 - Automatic flush during beforeCompletion(): disabled
+00:14:43,930  INFO SettingsFactory:173 - Automatic session close at end of transaction: disabled
+00:14:43,930  INFO SettingsFactory:180 - JDBC batch size: 15
+00:14:43,930  INFO SettingsFactory:183 - JDBC batch updates for versioned data: disabled
+00:14:43,931  INFO SettingsFactory:188 - Scrollable result sets: enabled
+00:14:43,931  INFO SettingsFactory:196 - JDBC3 getGeneratedKeys(): enabled
+00:14:43,931  INFO SettingsFactory:204 - Connection release mode: auto
+00:14:43,932  INFO SettingsFactory:228 - Maximum outer join fetch depth: 2
+00:14:43,932  INFO SettingsFactory:231 - Default batch fetch size: 1
+00:14:43,932  INFO SettingsFactory:235 - Generate SQL with comments: disabled
+00:14:43,932  INFO SettingsFactory:239 - Order SQL updates by primary key: disabled
+00:14:43,932  INFO SettingsFactory:243 - Order SQL inserts for batching: disabled
+00:14:43,933  INFO SettingsFactory:410 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+00:14:43,934  INFO ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+00:14:43,934  INFO SettingsFactory:251 - Query language substitutions: {}
+00:14:43,935  INFO SettingsFactory:256 - JPA-QL strict compliance: disabled
+00:14:43,935  INFO SettingsFactory:261 - Second-level cache: enabled
+00:14:43,935  INFO SettingsFactory:265 - Query cache: disabled
+00:14:43,935  INFO SettingsFactory:395 - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+00:14:43,936  INFO SettingsFactory:275 - Optimize cache for minimal puts: disabled
+00:14:43,936  INFO SettingsFactory:284 - Structured second-level cache entries: disabled
+00:14:43,940  INFO SettingsFactory:304 - Echoing all SQL to stdout
+00:14:43,941  INFO SettingsFactory:313 - Statistics: disabled
+00:14:43,941  INFO SettingsFactory:317 - Deleted entity synthetic identifier rollback: disabled
+00:14:43,941  INFO SettingsFactory:332 - Default entity-mode: pojo
+00:14:43,941  INFO SettingsFactory:336 - Named query checking : enabled
+00:14:43,942  INFO SettingsFactory:340 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+00:14:43,972  INFO SessionFactoryImpl:199 - building session factory
+00:14:44,145  INFO SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+00:14:44,327 DEBUG SQL:111 - select names0_.id as id0_, names0_.name as name0_ from s24ib.names names0_
+00:14:44,344 TRACE IntegerType:195 - returning '1' as column: id0_
+00:14:44,354 TRACE StringType:195 - returning 'michal' as column: name0_
+00:14:44,355 TRACE IntegerType:195 - returning '2' as column: id0_
+00:14:44,355 TRACE StringType:195 - returning 'tonda' as column: name0_
+00:14:44,355 TRACE IntegerType:195 - returning '3' as column: id0_
+00:14:44,356 TRACE StringType:195 - returning 'martin' as column: name0_
+00:15:20,305  INFO Environment:570 - Hibernate 3.5.6-Final
+00:15:20,309  INFO Environment:603 - hibernate.properties not found
+00:15:20,314  INFO Environment:781 - Bytecode provider name : javassist
+00:15:20,318  INFO Environment:662 - using JDK 1.4 java.sql.Timestamp handling
+00:15:20,455  INFO Configuration:1518 - configuring from resource: /hibernate.cfg.xml
+00:15:20,455  INFO Configuration:1495 - Configuration resource: /hibernate.cfg.xml
+00:15:20,549  INFO Configuration:655 - Reading mappings from resource : cz/velim/hibernatetest/entities/Names.hbm.xml
+00:15:20,612  INFO HbmBinder:348 - Mapping class: cz.velim.hibernatetest.entities.Names -> names
+00:15:20,624  INFO Configuration:1633 - Configured SessionFactory: null
+00:15:20,699  INFO DriverManagerConnectionProvider:64 - Using Hibernate built-in connection pool (not for production use!)
+00:15:20,699  INFO DriverManagerConnectionProvider:65 - Hibernate connection pool size: 20
+00:15:20,699  INFO DriverManagerConnectionProvider:68 - autocommit mode: false
+00:15:20,706  INFO DriverManagerConnectionProvider:103 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/s24ib
+00:15:20,707  INFO DriverManagerConnectionProvider:109 - connection properties: {user=s24ib, password=****}
+00:15:20,953  INFO SettingsFactory:117 - RDBMS: MySQL, version: 5.5.22
+00:15:20,953  INFO SettingsFactory:118 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.14 ( Revision: ${bzr.revision-id} )
+00:15:20,983  INFO Dialect:206 - Using dialect: org.hibernate.dialect.MySQL5Dialect
+00:15:20,992  INFO TransactionFactoryFactory:59 - Using default transaction strategy (direct JDBC transactions)
+00:15:20,993  INFO TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+00:15:20,994  INFO SettingsFactory:169 - Automatic flush during beforeCompletion(): disabled
+00:15:20,994  INFO SettingsFactory:173 - Automatic session close at end of transaction: disabled
+00:15:20,994  INFO SettingsFactory:180 - JDBC batch size: 15
+00:15:20,994  INFO SettingsFactory:183 - JDBC batch updates for versioned data: disabled
+00:15:20,995  INFO SettingsFactory:188 - Scrollable result sets: enabled
+00:15:20,995  INFO SettingsFactory:196 - JDBC3 getGeneratedKeys(): enabled
+00:15:20,995  INFO SettingsFactory:204 - Connection release mode: auto
+00:15:20,996  INFO SettingsFactory:228 - Maximum outer join fetch depth: 2
+00:15:20,996  INFO SettingsFactory:231 - Default batch fetch size: 1
+00:15:20,997  INFO SettingsFactory:235 - Generate SQL with comments: disabled
+00:15:20,997  INFO SettingsFactory:239 - Order SQL updates by primary key: disabled
+00:15:20,997  INFO SettingsFactory:243 - Order SQL inserts for batching: disabled
+00:15:20,997  INFO SettingsFactory:410 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+00:15:20,999  INFO ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+00:15:20,999  INFO SettingsFactory:251 - Query language substitutions: {}
+00:15:20,999  INFO SettingsFactory:256 - JPA-QL strict compliance: disabled
+00:15:20,999  INFO SettingsFactory:261 - Second-level cache: enabled
+00:15:21,000  INFO SettingsFactory:265 - Query cache: disabled
+00:15:21,000  INFO SettingsFactory:395 - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+00:15:21,000  INFO SettingsFactory:275 - Optimize cache for minimal puts: disabled
+00:15:21,001  INFO SettingsFactory:284 - Structured second-level cache entries: disabled
+00:15:21,004  INFO SettingsFactory:304 - Echoing all SQL to stdout
+00:15:21,005  INFO SettingsFactory:313 - Statistics: disabled
+00:15:21,005  INFO SettingsFactory:317 - Deleted entity synthetic identifier rollback: disabled
+00:15:21,006  INFO SettingsFactory:332 - Default entity-mode: pojo
+00:15:21,006  INFO SettingsFactory:336 - Named query checking : enabled
+00:15:21,006  INFO SettingsFactory:340 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+00:15:21,036  INFO SessionFactoryImpl:199 - building session factory
+00:15:21,204  INFO SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+00:15:21,386 DEBUG SQL:111 - select names0_.id as id0_, names0_.name as name0_ from s24ib.names names0_
+00:15:21,403 TRACE IntegerType:195 - returning '1' as column: id0_
+00:15:21,412 TRACE StringType:195 - returning 'michal' as column: name0_
+00:15:21,414 TRACE IntegerType:195 - returning '2' as column: id0_
+00:15:21,415 TRACE StringType:195 - returning 'tonda' as column: name0_
+00:15:21,415 TRACE IntegerType:195 - returning '3' as column: id0_
+00:15:21,415 TRACE StringType:195 - returning 'martin' as column: name0_
+00:15:25,123  INFO Environment:570 - Hibernate 3.5.6-Final
+00:15:25,127  INFO Environment:603 - hibernate.properties not found
+00:15:25,131  INFO Environment:781 - Bytecode provider name : javassist
+00:15:25,135  INFO Environment:662 - using JDK 1.4 java.sql.Timestamp handling
+00:15:25,232  INFO Configuration:1518 - configuring from resource: /hibernate.cfg.xml
+00:15:25,232  INFO Configuration:1495 - Configuration resource: /hibernate.cfg.xml
+00:15:25,310  INFO Configuration:655 - Reading mappings from resource : cz/velim/hibernatetest/entities/Names.hbm.xml
+00:15:25,370  INFO HbmBinder:348 - Mapping class: cz.velim.hibernatetest.entities.Names -> names
+00:15:25,382  INFO Configuration:1633 - Configured SessionFactory: null
+00:15:25,431  INFO DriverManagerConnectionProvider:64 - Using Hibernate built-in connection pool (not for production use!)
+00:15:25,431  INFO DriverManagerConnectionProvider:65 - Hibernate connection pool size: 20
+00:15:25,432  INFO DriverManagerConnectionProvider:68 - autocommit mode: false
+00:15:25,440  INFO DriverManagerConnectionProvider:103 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/s24ib
+00:15:25,441  INFO DriverManagerConnectionProvider:109 - connection properties: {user=s24ib, password=****}
+00:15:25,692  INFO SettingsFactory:117 - RDBMS: MySQL, version: 5.5.22
+00:15:25,693  INFO SettingsFactory:118 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.14 ( Revision: ${bzr.revision-id} )
+00:15:25,723  INFO Dialect:206 - Using dialect: org.hibernate.dialect.MySQL5Dialect
+00:15:25,731  INFO TransactionFactoryFactory:59 - Using default transaction strategy (direct JDBC transactions)
+00:15:25,733  INFO TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+00:15:25,733  INFO SettingsFactory:169 - Automatic flush during beforeCompletion(): disabled
+00:15:25,733  INFO SettingsFactory:173 - Automatic session close at end of transaction: disabled
+00:15:25,733  INFO SettingsFactory:180 - JDBC batch size: 15
+00:15:25,734  INFO SettingsFactory:183 - JDBC batch updates for versioned data: disabled
+00:15:25,734  INFO SettingsFactory:188 - Scrollable result sets: enabled
+00:15:25,734  INFO SettingsFactory:196 - JDBC3 getGeneratedKeys(): enabled
+00:15:25,735  INFO SettingsFactory:204 - Connection release mode: auto
+00:15:25,735  INFO SettingsFactory:228 - Maximum outer join fetch depth: 2
+00:15:25,736  INFO SettingsFactory:231 - Default batch fetch size: 1
+00:15:25,736  INFO SettingsFactory:235 - Generate SQL with comments: disabled
+00:15:25,736  INFO SettingsFactory:239 - Order SQL updates by primary key: disabled
+00:15:25,736  INFO SettingsFactory:243 - Order SQL inserts for batching: disabled
+00:15:25,736  INFO SettingsFactory:410 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+00:15:25,738  INFO ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+00:15:25,738  INFO SettingsFactory:251 - Query language substitutions: {}
+00:15:25,738  INFO SettingsFactory:256 - JPA-QL strict compliance: disabled
+00:15:25,739  INFO SettingsFactory:261 - Second-level cache: enabled
+00:15:25,739  INFO SettingsFactory:265 - Query cache: disabled
+00:15:25,739  INFO SettingsFactory:395 - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+00:15:25,739  INFO SettingsFactory:275 - Optimize cache for minimal puts: disabled
+00:15:25,740  INFO SettingsFactory:284 - Structured second-level cache entries: disabled
+00:15:25,743  INFO SettingsFactory:304 - Echoing all SQL to stdout
+00:15:25,744  INFO SettingsFactory:313 - Statistics: disabled
+00:15:25,744  INFO SettingsFactory:317 - Deleted entity synthetic identifier rollback: disabled
+00:15:25,744  INFO SettingsFactory:332 - Default entity-mode: pojo
+00:15:25,745  INFO SettingsFactory:336 - Named query checking : enabled
+00:15:25,745  INFO SettingsFactory:340 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+00:15:25,779  INFO SessionFactoryImpl:199 - building session factory
+00:15:25,961  INFO SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+00:15:26,145 DEBUG SQL:111 - select names0_.id as id0_, names0_.name as name0_ from s24ib.names names0_
+00:15:26,163 TRACE IntegerType:195 - returning '1' as column: id0_
+00:15:26,172 TRACE StringType:195 - returning 'michal' as column: name0_
+00:15:26,174 TRACE IntegerType:195 - returning '2' as column: id0_
+00:15:26,174 TRACE StringType:195 - returning 'tonda' as column: name0_
+00:15:26,174 TRACE IntegerType:195 - returning '3' as column: id0_
+00:15:26,174 TRACE StringType:195 - returning 'martin' as column: name0_
+00:16:02,309  INFO Environment:570 - Hibernate 3.5.6-Final
+00:16:02,313  INFO Environment:603 - hibernate.properties not found
+00:16:02,317  INFO Environment:781 - Bytecode provider name : javassist
+00:16:02,321  INFO Environment:662 - using JDK 1.4 java.sql.Timestamp handling
+00:16:02,424  INFO Configuration:1518 - configuring from resource: /hibernate.cfg.xml
+00:16:02,424  INFO Configuration:1495 - Configuration resource: /hibernate.cfg.xml
+00:16:02,502  INFO Configuration:655 - Reading mappings from resource : cz/velim/hibernatetest/entities/Names.hbm.xml
+00:16:02,564  INFO HbmBinder:348 - Mapping class: cz.velim.hibernatetest.entities.Names -> names
+00:16:02,595  INFO Configuration:1633 - Configured SessionFactory: null
+00:16:02,647  INFO DriverManagerConnectionProvider:64 - Using Hibernate built-in connection pool (not for production use!)
+00:16:02,647  INFO DriverManagerConnectionProvider:65 - Hibernate connection pool size: 20
+00:16:02,647  INFO DriverManagerConnectionProvider:68 - autocommit mode: false
+00:16:02,654  INFO DriverManagerConnectionProvider:103 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/s24ib
+00:16:02,654  INFO DriverManagerConnectionProvider:109 - connection properties: {user=s24ib, password=****}
+00:16:02,891  INFO SettingsFactory:117 - RDBMS: MySQL, version: 5.5.22
+00:16:02,892  INFO SettingsFactory:118 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.14 ( Revision: ${bzr.revision-id} )
+00:16:02,922  INFO Dialect:206 - Using dialect: org.hibernate.dialect.MySQL5Dialect
+00:16:02,930  INFO TransactionFactoryFactory:59 - Using default transaction strategy (direct JDBC transactions)
+00:16:02,932  INFO TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+00:16:02,932  INFO SettingsFactory:169 - Automatic flush during beforeCompletion(): disabled
+00:16:02,932  INFO SettingsFactory:173 - Automatic session close at end of transaction: disabled
+00:16:02,933  INFO SettingsFactory:180 - JDBC batch size: 15
+00:16:02,933  INFO SettingsFactory:183 - JDBC batch updates for versioned data: disabled
+00:16:02,933  INFO SettingsFactory:188 - Scrollable result sets: enabled
+00:16:02,934  INFO SettingsFactory:196 - JDBC3 getGeneratedKeys(): enabled
+00:16:02,934  INFO SettingsFactory:204 - Connection release mode: auto
+00:16:02,934  INFO SettingsFactory:228 - Maximum outer join fetch depth: 2
+00:16:02,935  INFO SettingsFactory:231 - Default batch fetch size: 1
+00:16:02,935  INFO SettingsFactory:235 - Generate SQL with comments: disabled
+00:16:02,935  INFO SettingsFactory:239 - Order SQL updates by primary key: disabled
+00:16:02,935  INFO SettingsFactory:243 - Order SQL inserts for batching: disabled
+00:16:02,935  INFO SettingsFactory:410 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+00:16:02,937  INFO ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+00:16:02,937  INFO SettingsFactory:251 - Query language substitutions: {}
+00:16:02,937  INFO SettingsFactory:256 - JPA-QL strict compliance: disabled
+00:16:02,938  INFO SettingsFactory:261 - Second-level cache: enabled
+00:16:02,938  INFO SettingsFactory:265 - Query cache: disabled
+00:16:02,938  INFO SettingsFactory:395 - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+00:16:02,938  INFO SettingsFactory:275 - Optimize cache for minimal puts: disabled
+00:16:02,939  INFO SettingsFactory:284 - Structured second-level cache entries: disabled
+00:16:02,942  INFO SettingsFactory:304 - Echoing all SQL to stdout
+00:16:02,943  INFO SettingsFactory:313 - Statistics: disabled
+00:16:02,943  INFO SettingsFactory:317 - Deleted entity synthetic identifier rollback: disabled
+00:16:02,944  INFO SettingsFactory:332 - Default entity-mode: pojo
+00:16:02,944  INFO SettingsFactory:336 - Named query checking : enabled
+00:16:02,944  INFO SettingsFactory:340 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+00:16:02,974  INFO SessionFactoryImpl:199 - building session factory
+00:16:03,153  INFO SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+00:16:03,348 DEBUG SQL:111 - select names0_.id as id0_, names0_.name as name0_ from s24ib.names names0_
+00:16:03,365 TRACE IntegerType:195 - returning '1' as column: id0_
+00:16:03,375 TRACE StringType:195 - returning 'michal' as column: name0_
+00:16:03,376 TRACE IntegerType:195 - returning '2' as column: id0_
+00:16:03,376 TRACE StringType:195 - returning 'tonda' as column: name0_
+00:16:03,377 TRACE IntegerType:195 - returning '3' as column: id0_
+00:16:03,377 TRACE StringType:195 - returning 'martin' as column: name0_
+00:16:37,446  INFO Environment:570 - Hibernate 3.5.6-Final
+00:16:37,450  INFO Environment:603 - hibernate.properties not found
+00:16:37,454  INFO Environment:781 - Bytecode provider name : javassist
+00:16:37,458  INFO Environment:662 - using JDK 1.4 java.sql.Timestamp handling
+00:16:37,570  INFO Configuration:1518 - configuring from resource: /hibernate.cfg.xml
+00:16:37,571  INFO Configuration:1495 - Configuration resource: /hibernate.cfg.xml
+00:16:37,661  INFO Configuration:655 - Reading mappings from resource : cz/velim/hibernatetest/entities/Names.hbm.xml
+00:16:37,736  INFO HbmBinder:348 - Mapping class: cz.velim.hibernatetest.entities.Names -> names
+00:16:37,747  INFO Configuration:1633 - Configured SessionFactory: null
+00:16:37,797  INFO DriverManagerConnectionProvider:64 - Using Hibernate built-in connection pool (not for production use!)
+00:16:37,797  INFO DriverManagerConnectionProvider:65 - Hibernate connection pool size: 20
+00:16:37,797  INFO DriverManagerConnectionProvider:68 - autocommit mode: false
+00:16:37,805  INFO DriverManagerConnectionProvider:103 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/s24ib
+00:16:37,805  INFO DriverManagerConnectionProvider:109 - connection properties: {user=s24ib, password=****}
+00:16:38,044  INFO SettingsFactory:117 - RDBMS: MySQL, version: 5.5.22
+00:16:38,044  INFO SettingsFactory:118 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.14 ( Revision: ${bzr.revision-id} )
+00:16:38,074  INFO Dialect:206 - Using dialect: org.hibernate.dialect.MySQL5Dialect
+00:16:38,083  INFO TransactionFactoryFactory:59 - Using default transaction strategy (direct JDBC transactions)
+00:16:38,084  INFO TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+00:16:38,084  INFO SettingsFactory:169 - Automatic flush during beforeCompletion(): disabled
+00:16:38,084  INFO SettingsFactory:173 - Automatic session close at end of transaction: disabled
+00:16:38,085  INFO SettingsFactory:180 - JDBC batch size: 15
+00:16:38,085  INFO SettingsFactory:183 - JDBC batch updates for versioned data: disabled
+00:16:38,085  INFO SettingsFactory:188 - Scrollable result sets: enabled
+00:16:38,086  INFO SettingsFactory:196 - JDBC3 getGeneratedKeys(): enabled
+00:16:38,086  INFO SettingsFactory:204 - Connection release mode: auto
+00:16:38,087  INFO SettingsFactory:228 - Maximum outer join fetch depth: 2
+00:16:38,087  INFO SettingsFactory:231 - Default batch fetch size: 1
+00:16:38,087  INFO SettingsFactory:235 - Generate SQL with comments: disabled
+00:16:38,087  INFO SettingsFactory:239 - Order SQL updates by primary key: disabled
+00:16:38,087  INFO SettingsFactory:243 - Order SQL inserts for batching: disabled
+00:16:38,088  INFO SettingsFactory:410 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+00:16:38,089  INFO ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+00:16:38,089  INFO SettingsFactory:251 - Query language substitutions: {}
+00:16:38,090  INFO SettingsFactory:256 - JPA-QL strict compliance: disabled
+00:16:38,090  INFO SettingsFactory:261 - Second-level cache: enabled
+00:16:38,090  INFO SettingsFactory:265 - Query cache: disabled
+00:16:38,090  INFO SettingsFactory:395 - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+00:16:38,091  INFO SettingsFactory:275 - Optimize cache for minimal puts: disabled
+00:16:38,091  INFO SettingsFactory:284 - Structured second-level cache entries: disabled
+00:16:38,094  INFO SettingsFactory:304 - Echoing all SQL to stdout
+00:16:38,095  INFO SettingsFactory:313 - Statistics: disabled
+00:16:38,095  INFO SettingsFactory:317 - Deleted entity synthetic identifier rollback: disabled
+00:16:38,095  INFO SettingsFactory:332 - Default entity-mode: pojo
+00:16:38,096  INFO SettingsFactory:336 - Named query checking : enabled
+00:16:38,096  INFO SettingsFactory:340 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+00:16:38,138  INFO SessionFactoryImpl:199 - building session factory
+00:16:38,303  INFO SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+00:16:38,488 DEBUG SQL:111 - select names0_.id as id0_, names0_.name as name0_ from s24ib.names names0_
+00:16:38,505 TRACE IntegerType:195 - returning '1' as column: id0_
+00:16:38,514 TRACE StringType:195 - returning 'michal' as column: name0_
+00:16:38,516 TRACE IntegerType:195 - returning '2' as column: id0_
+00:16:38,516 TRACE StringType:195 - returning 'tonda' as column: name0_
+00:16:38,516 TRACE IntegerType:195 - returning '3' as column: id0_
+00:16:38,517 TRACE StringType:195 - returning 'martin' as column: name0_
+00:19:46,950  INFO Environment:570 - Hibernate 3.5.6-Final
+00:19:46,955  INFO Environment:603 - hibernate.properties not found
+00:19:46,960  INFO Environment:781 - Bytecode provider name : javassist
+00:19:46,967  INFO Environment:662 - using JDK 1.4 java.sql.Timestamp handling
+00:19:47,086  INFO Configuration:1518 - configuring from resource: /hibernate.cfg.xml
+00:19:47,087  INFO Configuration:1495 - Configuration resource: /hibernate.cfg.xml
+00:19:47,166  INFO Configuration:655 - Reading mappings from resource : cz/velim/hibernatetest/entities/Names.hbm.xml
+00:19:47,226  INFO HbmBinder:348 - Mapping class: cz.velim.hibernatetest.entities.Names -> names
+00:19:47,238  INFO Configuration:1633 - Configured SessionFactory: null
+00:19:47,291  INFO DriverManagerConnectionProvider:64 - Using Hibernate built-in connection pool (not for production use!)
+00:19:47,291  INFO DriverManagerConnectionProvider:65 - Hibernate connection pool size: 20
+00:19:47,291  INFO DriverManagerConnectionProvider:68 - autocommit mode: false
+00:19:47,299  INFO DriverManagerConnectionProvider:103 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/s24ib
+00:19:47,299  INFO DriverManagerConnectionProvider:109 - connection properties: {user=s24ib, password=****}
+00:19:47,546  INFO SettingsFactory:117 - RDBMS: MySQL, version: 5.5.22
+00:19:47,546  INFO SettingsFactory:118 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.14 ( Revision: ${bzr.revision-id} )
+00:19:47,578  INFO Dialect:206 - Using dialect: org.hibernate.dialect.MySQL5Dialect
+00:19:47,587  INFO TransactionFactoryFactory:59 - Using default transaction strategy (direct JDBC transactions)
+00:19:47,589  INFO TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+00:19:47,589  INFO SettingsFactory:169 - Automatic flush during beforeCompletion(): disabled
+00:19:47,589  INFO SettingsFactory:173 - Automatic session close at end of transaction: disabled
+00:19:47,589  INFO SettingsFactory:180 - JDBC batch size: 15
+00:19:47,590  INFO SettingsFactory:183 - JDBC batch updates for versioned data: disabled
+00:19:47,590  INFO SettingsFactory:188 - Scrollable result sets: enabled
+00:19:47,590  INFO SettingsFactory:196 - JDBC3 getGeneratedKeys(): enabled
+00:19:47,591  INFO SettingsFactory:204 - Connection release mode: auto
+00:19:47,591  INFO SettingsFactory:228 - Maximum outer join fetch depth: 2
+00:19:47,592  INFO SettingsFactory:231 - Default batch fetch size: 1
+00:19:47,592  INFO SettingsFactory:235 - Generate SQL with comments: disabled
+00:19:47,592  INFO SettingsFactory:239 - Order SQL updates by primary key: disabled
+00:19:47,592  INFO SettingsFactory:243 - Order SQL inserts for batching: disabled
+00:19:47,592  INFO SettingsFactory:410 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+00:19:47,594  INFO ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+00:19:47,594  INFO SettingsFactory:251 - Query language substitutions: {}
+00:19:47,594  INFO SettingsFactory:256 - JPA-QL strict compliance: disabled
+00:19:47,595  INFO SettingsFactory:261 - Second-level cache: enabled
+00:19:47,595  INFO SettingsFactory:265 - Query cache: disabled
+00:19:47,595  INFO SettingsFactory:395 - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+00:19:47,595  INFO SettingsFactory:275 - Optimize cache for minimal puts: disabled
+00:19:47,595  INFO SettingsFactory:284 - Structured second-level cache entries: disabled
+00:19:47,599  INFO SettingsFactory:304 - Echoing all SQL to stdout
+00:19:47,600  INFO SettingsFactory:313 - Statistics: disabled
+00:19:47,600  INFO SettingsFactory:317 - Deleted entity synthetic identifier rollback: disabled
+00:19:47,601  INFO SettingsFactory:332 - Default entity-mode: pojo
+00:19:47,601  INFO SettingsFactory:336 - Named query checking : enabled
+00:19:47,601  INFO SettingsFactory:340 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+00:19:47,634  INFO SessionFactoryImpl:199 - building session factory
+00:19:47,804  INFO SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+00:19:47,988 DEBUG SQL:111 - select names0_.id as id0_, names0_.name as name0_ from s24ib.names names0_
+00:19:48,005 TRACE IntegerType:195 - returning '1' as column: id0_
+00:19:48,014 TRACE StringType:195 - returning 'michal' as column: name0_
+00:19:48,016 TRACE IntegerType:195 - returning '2' as column: id0_
+00:19:48,016 TRACE StringType:195 - returning 'tonda' as column: name0_
+00:19:48,016 TRACE IntegerType:195 - returning '3' as column: id0_
+00:19:48,017 TRACE StringType:195 - returning 'martin' as column: name0_
+00:19:53,005  INFO Environment:570 - Hibernate 3.5.6-Final
+00:19:53,010  INFO Environment:603 - hibernate.properties not found
+00:19:53,013  INFO Environment:781 - Bytecode provider name : javassist
+00:19:53,018  INFO Environment:662 - using JDK 1.4 java.sql.Timestamp handling
+00:19:53,115  INFO Configuration:1518 - configuring from resource: /hibernate.cfg.xml
+00:19:53,115  INFO Configuration:1495 - Configuration resource: /hibernate.cfg.xml
+00:19:53,193  INFO Configuration:655 - Reading mappings from resource : cz/velim/hibernatetest/entities/Names.hbm.xml
+00:19:53,254  INFO HbmBinder:348 - Mapping class: cz.velim.hibernatetest.entities.Names -> names
+00:19:53,265  INFO Configuration:1633 - Configured SessionFactory: null
+00:19:53,315  INFO DriverManagerConnectionProvider:64 - Using Hibernate built-in connection pool (not for production use!)
+00:19:53,317  INFO DriverManagerConnectionProvider:65 - Hibernate connection pool size: 20
+00:19:53,317  INFO DriverManagerConnectionProvider:68 - autocommit mode: false
+00:19:53,327  INFO DriverManagerConnectionProvider:103 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/s24ib
+00:19:53,327  INFO DriverManagerConnectionProvider:109 - connection properties: {user=s24ib, password=****}
+00:19:53,560  INFO SettingsFactory:117 - RDBMS: MySQL, version: 5.5.22
+00:19:53,560  INFO SettingsFactory:118 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.14 ( Revision: ${bzr.revision-id} )
+00:19:53,592  INFO Dialect:206 - Using dialect: org.hibernate.dialect.MySQL5Dialect
+00:19:53,601  INFO TransactionFactoryFactory:59 - Using default transaction strategy (direct JDBC transactions)
+00:19:53,602  INFO TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+00:19:53,602  INFO SettingsFactory:169 - Automatic flush during beforeCompletion(): disabled
+00:19:53,602  INFO SettingsFactory:173 - Automatic session close at end of transaction: disabled
+00:19:53,603  INFO SettingsFactory:180 - JDBC batch size: 15
+00:19:53,603  INFO SettingsFactory:183 - JDBC batch updates for versioned data: disabled
+00:19:53,603  INFO SettingsFactory:188 - Scrollable result sets: enabled
+00:19:53,604  INFO SettingsFactory:196 - JDBC3 getGeneratedKeys(): enabled
+00:19:53,604  INFO SettingsFactory:204 - Connection release mode: auto
+00:19:53,605  INFO SettingsFactory:228 - Maximum outer join fetch depth: 2
+00:19:53,605  INFO SettingsFactory:231 - Default batch fetch size: 1
+00:19:53,605  INFO SettingsFactory:235 - Generate SQL with comments: disabled
+00:19:53,605  INFO SettingsFactory:239 - Order SQL updates by primary key: disabled
+00:19:53,605  INFO SettingsFactory:243 - Order SQL inserts for batching: disabled
+00:19:53,606  INFO SettingsFactory:410 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+00:19:53,607  INFO ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+00:19:53,607  INFO SettingsFactory:251 - Query language substitutions: {}
+00:19:53,608  INFO SettingsFactory:256 - JPA-QL strict compliance: disabled
+00:19:53,608  INFO SettingsFactory:261 - Second-level cache: enabled
+00:19:53,608  INFO SettingsFactory:265 - Query cache: disabled
+00:19:53,608  INFO SettingsFactory:395 - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+00:19:53,609  INFO SettingsFactory:275 - Optimize cache for minimal puts: disabled
+00:19:53,609  INFO SettingsFactory:284 - Structured second-level cache entries: disabled
+00:19:53,612  INFO SettingsFactory:304 - Echoing all SQL to stdout
+00:19:53,613  INFO SettingsFactory:313 - Statistics: disabled
+00:19:53,613  INFO SettingsFactory:317 - Deleted entity synthetic identifier rollback: disabled
+00:19:53,614  INFO SettingsFactory:332 - Default entity-mode: pojo
+00:19:53,614  INFO SettingsFactory:336 - Named query checking : enabled
+00:19:53,614  INFO SettingsFactory:340 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+00:19:53,644  INFO SessionFactoryImpl:199 - building session factory
+00:19:53,820  INFO SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+00:19:54,005 DEBUG SQL:111 - select names0_.id as id0_, names0_.name as name0_ from s24ib.names names0_
+00:19:54,022 TRACE IntegerType:195 - returning '1' as column: id0_
+00:19:54,031 TRACE StringType:195 - returning 'michal' as column: name0_
+00:19:54,033 TRACE IntegerType:195 - returning '2' as column: id0_
+00:19:54,033 TRACE StringType:195 - returning 'tonda' as column: name0_
+00:19:54,033 TRACE IntegerType:195 - returning '3' as column: id0_
+00:19:54,033 TRACE StringType:195 - returning 'martin' as column: name0_
+00:19:54,053 DEBUG SQL:111 - insert into s24ib.names (name) values (?)
+00:19:54,053 TRACE StringType:153 - binding 'jiri' to parameter: 1
+00:19:54,076 DEBUG SQL:111 - insert into s24ib.names (name) values (?)
+00:19:54,077 TRACE StringType:153 - binding 'karel' to parameter: 1
+00:20:00,634  INFO Environment:570 - Hibernate 3.5.6-Final
+00:20:00,638  INFO Environment:603 - hibernate.properties not found
+00:20:00,642  INFO Environment:781 - Bytecode provider name : javassist
+00:20:00,646  INFO Environment:662 - using JDK 1.4 java.sql.Timestamp handling
+00:20:00,749  INFO Configuration:1518 - configuring from resource: /hibernate.cfg.xml
+00:20:00,750  INFO Configuration:1495 - Configuration resource: /hibernate.cfg.xml
+00:20:00,828  INFO Configuration:655 - Reading mappings from resource : cz/velim/hibernatetest/entities/Names.hbm.xml
+00:20:00,892  INFO HbmBinder:348 - Mapping class: cz.velim.hibernatetest.entities.Names -> names
+00:20:00,904  INFO Configuration:1633 - Configured SessionFactory: null
+00:20:00,955  INFO DriverManagerConnectionProvider:64 - Using Hibernate built-in connection pool (not for production use!)
+00:20:00,955  INFO DriverManagerConnectionProvider:65 - Hibernate connection pool size: 20
+00:20:00,956  INFO DriverManagerConnectionProvider:68 - autocommit mode: false
+00:20:00,963  INFO DriverManagerConnectionProvider:103 - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/s24ib
+00:20:00,963  INFO DriverManagerConnectionProvider:109 - connection properties: {user=s24ib, password=****}
+00:20:01,201  INFO SettingsFactory:117 - RDBMS: MySQL, version: 5.5.22
+00:20:01,202  INFO SettingsFactory:118 - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.14 ( Revision: ${bzr.revision-id} )
+00:20:01,232  INFO Dialect:206 - Using dialect: org.hibernate.dialect.MySQL5Dialect
+00:20:01,241  INFO TransactionFactoryFactory:59 - Using default transaction strategy (direct JDBC transactions)
+00:20:01,243  INFO TransactionManagerLookupFactory:80 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+00:20:01,243  INFO SettingsFactory:169 - Automatic flush during beforeCompletion(): disabled
+00:20:01,243  INFO SettingsFactory:173 - Automatic session close at end of transaction: disabled
+00:20:01,243  INFO SettingsFactory:180 - JDBC batch size: 15
+00:20:01,244  INFO SettingsFactory:183 - JDBC batch updates for versioned data: disabled
+00:20:01,244  INFO SettingsFactory:188 - Scrollable result sets: enabled
+00:20:01,245  INFO SettingsFactory:196 - JDBC3 getGeneratedKeys(): enabled
+00:20:01,245  INFO SettingsFactory:204 - Connection release mode: auto
+00:20:01,245  INFO SettingsFactory:228 - Maximum outer join fetch depth: 2
+00:20:01,246  INFO SettingsFactory:231 - Default batch fetch size: 1
+00:20:01,246  INFO SettingsFactory:235 - Generate SQL with comments: disabled
+00:20:01,246  INFO SettingsFactory:239 - Order SQL updates by primary key: disabled
+00:20:01,246  INFO SettingsFactory:243 - Order SQL inserts for batching: disabled
+00:20:01,246  INFO SettingsFactory:410 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+00:20:01,248  INFO ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+00:20:01,248  INFO SettingsFactory:251 - Query language substitutions: {}
+00:20:01,248  INFO SettingsFactory:256 - JPA-QL strict compliance: disabled
+00:20:01,249  INFO SettingsFactory:261 - Second-level cache: enabled
+00:20:01,249  INFO SettingsFactory:265 - Query cache: disabled
+00:20:01,249  INFO SettingsFactory:395 - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+00:20:01,249  INFO SettingsFactory:275 - Optimize cache for minimal puts: disabled
+00:20:01,250  INFO SettingsFactory:284 - Structured second-level cache entries: disabled
+00:20:01,253  INFO SettingsFactory:304 - Echoing all SQL to stdout
+00:20:01,254  INFO SettingsFactory:313 - Statistics: disabled
+00:20:01,254  INFO SettingsFactory:317 - Deleted entity synthetic identifier rollback: disabled
+00:20:01,255  INFO SettingsFactory:332 - Default entity-mode: pojo
+00:20:01,255  INFO SettingsFactory:336 - Named query checking : enabled
+00:20:01,255  INFO SettingsFactory:340 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+00:20:01,289  INFO SessionFactoryImpl:199 - building session factory
+00:20:01,457  INFO SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+00:20:01,641 DEBUG SQL:111 - select names0_.id as id0_, names0_.name as name0_ from s24ib.names names0_
+00:20:01,658 TRACE IntegerType:195 - returning '1' as column: id0_
+00:20:01,667 TRACE StringType:195 - returning 'michal' as column: name0_
+00:20:01,668 TRACE IntegerType:195 - returning '2' as column: id0_
+00:20:01,669 TRACE StringType:195 - returning 'tonda' as column: name0_
+00:20:01,669 TRACE IntegerType:195 - returning '3' as column: id0_
+00:20:01,669 TRACE StringType:195 - returning 'martin' as column: name0_
+00:20:01,670 TRACE IntegerType:195 - returning '4' as column: id0_
+00:20:01,670 TRACE StringType:195 - returning 'jiri' as column: name0_
+00:20:01,670 TRACE IntegerType:195 - returning '5' as column: id0_
+00:20:01,670 TRACE StringType:195 - returning 'karel' as column: name0_
