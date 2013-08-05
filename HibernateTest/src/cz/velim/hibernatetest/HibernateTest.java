@@ -16,28 +16,36 @@ public class HibernateTest {
 	public static void main(String[] args) {
 		SessionFactory sessionFactory;
 		sessionFactory = new Configuration()
-	                .configure() // configures settings from hibernate.cfg.xml
-	                .buildSessionFactory();
-					
+				.configure() // configures settings
+				.buildSessionFactory();
+
 		Session session = sessionFactory.openSession();
+		
 		Transaction transaction = null;
 		transaction = session.beginTransaction();
+		
 		List tests = session.createQuery("from Names").list();
 		for (Iterator<Names> iterator = tests.iterator(); iterator.hasNext();) {
 			Names tst = (Names) iterator.next();
 			System.out.println(tst.getName());
 		}
-		transaction.commit();
 		
+		transaction.commit();
+
 		System.out.println(args.length);
-		if(args.length == 0) return;
+		if (args.length == 0)
+			return;
+		// there are some arguments
 		System.out.println("add new names");
 		Names name = null;
-		for (String arg: args){
+
+		for (String arg : args) {
+
 			transaction = session.beginTransaction();
 			name = new Names(arg);
 			session.save(name);
 			transaction.commit();
+
 		}
 
 	}
