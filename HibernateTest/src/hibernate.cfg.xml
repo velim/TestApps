@@ -12,6 +12,7 @@
 <!-- <property name="hibernate.default_schema">s24ib</property> -->        
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
         <property name="show_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
         <mapping resource="cz/velim/hibernatetest/entities/Names.hbm.xml"/>
     </session-factory>
    

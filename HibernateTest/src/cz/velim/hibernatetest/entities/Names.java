@@ -10,8 +10,17 @@ public class Names implements java.io.Serializable {
 
 	private Integer id;
 	private String name;
-
+	private String note;
+	
 	public Names() {
+	}
+
+	public String getNote() {
+		return note;
+	}
+
+	public void setNote(String note) {
+		this.note = note;
 	}
 
 	public Names(String name) {

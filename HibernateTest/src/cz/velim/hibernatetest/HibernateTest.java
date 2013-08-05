@@ -15,21 +15,21 @@ public class HibernateTest {
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) {
 		SessionFactory sessionFactory;
-		sessionFactory = new Configuration()
-				.configure() // configures settings
+		sessionFactory = new Configuration().configure() // configures settings
 				.buildSessionFactory();
 
 		Session session = sessionFactory.openSession();
-		
+
 		Transaction transaction = null;
 		transaction = session.beginTransaction();
-		
+
 		List tests = session.createQuery("from Names").list();
 		for (Iterator<Names> iterator = tests.iterator(); iterator.hasNext();) {
 			Names tst = (Names) iterator.next();
-			System.out.println(tst.getName());
+			System.out.println(tst.getId() + " : " + tst.getName() + "\t: "
+					+ tst.getNote());
 		}
-		
+
 		transaction.commit();
 
 		System.out.println(args.length);
@@ -42,7 +42,11 @@ public class HibernateTest {
 		for (String arg : args) {
 
 			transaction = session.beginTransaction();
-			name = new Names(arg);
+			name = new Names();
+
+			name.setName(arg);
+			name.setNote(name.getName() + " - note");
+
 			session.save(name);
 			transaction.commit();
 
