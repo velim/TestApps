@@ -32,6 +32,12 @@ public class HibernateTest {
 
 		transaction.commit();
 
+		transaction.begin();
+		Names todelete = (Names) session.get(Names.class, 9);
+		if (todelete != null)
+			session.delete(todelete);
+		transaction.commit();
+		
 		System.out.println(args.length);
 		if (args.length == 0)
 			return;
